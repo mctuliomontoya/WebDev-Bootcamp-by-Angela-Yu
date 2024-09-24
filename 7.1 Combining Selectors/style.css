@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/* select BOTH todo list and monday h2 */
+h1, h2 {
+    color:blueviolet;
+}
+
+/* Select p tags that are CHILDREN of box class */
+.box > p {
+    color: firebrick;
+}
+
+/* Select DESCENDANTS of box class that are li's */
+.box li {
+    color: blue;
+}
+
+/*Select SPECIFIC tag, so we select li items that are "done" */
+li.done { 
+    color: green;
+}
+/* Select the "other items" p with COMBINATIONS of selectors */
+ul p.done { 
+    font-size: 0.5rem;
+}
+ 
